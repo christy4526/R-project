@@ -120,7 +120,7 @@ health8lm2 <- lm(weight5kg ~ bloodsugarb + allchol + tri + hemo + crea + rGT + s
 summary(health8lm2)
 
 
-#~~이 음주여부에 미치는 영향
+#~~이 음주여부에 미치는 영향(8번)
 health9 <- health
 
 names(health9)[7] <- 'weight5kg'
