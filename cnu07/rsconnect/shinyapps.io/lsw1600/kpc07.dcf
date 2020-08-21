@@ -1,0 +1,12 @@
+name: kpc07
+title: kpc07
+username:
+account: lsw1600
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2688346
+bundleId: 3536563
+url: https://lsw1600.shinyapps.io/kpc07/
+when: 1597903532.66199
+asMultiple: FALSE
+asStatic: FALSE
