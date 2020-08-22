@@ -58,3 +58,4 @@ ggplot(wifi, aes(x=factor(1))) + geom_bar(aes(fill=INSTL_DIV), width=1) +
 ggplot(wifi, aes(CATEGORY)) + geom_bar(aes(fill = INSTL_DIV))
 
 ggplot(wifi, aes(INSTL_DIV)) + geom_bar(aes(fill = CATEGORY))
+
