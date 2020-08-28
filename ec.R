@@ -145,3 +145,4 @@ geo <- geocode(enc2utf8(addr))
 geo
 jongro <- data.frame(name=names, lon=geo$lon, lat=geo$lat)
 center <- c(mean(jongro$lon), mean(jongro$lat))
+
