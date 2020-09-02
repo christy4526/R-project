@@ -46,7 +46,6 @@ summary(jengel.lm)
 plotly::plot_ly(ggplot2::diamonds, y = ~cworkers2$여가지수, x = ~cworkers2$연차구분, type = "box")
 
 
-
 ################## 연차별 행복지수
 #정규성
 cworkers2 <- cworkers %>% filter(행복지수 <= 250)
