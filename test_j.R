@@ -71,3 +71,4 @@ library(agricolae)
 summary(jengel.lm)
 
 plotly::plot_ly(ggplot2::diamonds, y = ~cworkers2$행복지수, x = ~cworkers2$연차구분, type = "box")
+
