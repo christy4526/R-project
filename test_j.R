@@ -17,7 +17,6 @@ summary(jengel.lm)
 plotly::plot_ly(ggplot2::diamonds, y = ~cworkers$엥겔지수, x = ~cworkers$연차구분, type = "box")
 
 
-
 #################### 연차별 여가지수
 tapply(cworkers$여가지수, cworkers$연차구분, shapiro.test)
 bartlett.test(cworkers$여가지수, cworkers$연차구분)
