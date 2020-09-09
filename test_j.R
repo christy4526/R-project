@@ -1,6 +1,5 @@
 setwd("C:/Rproject")
 # J 산업군에서 
-
 #################### 연차별 엥겔지수
 #범주 - 연속 : 분산분석
 cworkers <- read.csv("가계동향조사_J개인.csv", head=TRUE)
