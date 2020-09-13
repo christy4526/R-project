@@ -152,3 +152,4 @@ range(car$family)
 range(car$carsize)
 table(car)
 chisq.test(table(car))
+
