@@ -45,6 +45,7 @@ head(wifi)
 
 attach(wifi)
 
+
 #서울시 지도에 wifi 표시
 bmap <- ggmap(get_googlemap(center = c("seoul"), zoom = 11,maptype = "roadmap")) +
   geom_point(data=wifi, aes(x=LON, y=LAT, colour=INSTL_DIV, size=4))
